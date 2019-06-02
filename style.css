@@ -1,0 +1,208 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+html {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+	}
+body {
+	box-sizing:border-box;
+	font-family: arial,Georgia, serif;
+	font-size:18px;
+	background:lightgrey;
+	color:#FFF;
+	}
+p {
+	text-align: justify;
+	text-shadow:2px 2px 2px grey;
+	font-weight: 1.2em;
+	}
+
+h1{
+	font-family:fantasy,Georgia,serif;
+	font-size: 4em;
+	color:grey;
+	text-shadow: 5px 10px 18px #51b8b5;
+	padding:10px 0 10px 20px ;
+	text-align: center ;
+	}
+h2{
+	font-family:fantasy, Georgia, serif;
+	font-size:48px;
+	color:grey;
+	text-shadow:5px 10px 18px #51b8b5;
+	margin-right:200px ;
+	text-align:right ;
+	white-space: ;
+	}
+h3 {
+	font-family: fantasy,Georgia,serif;
+	font-size: 1.5em;
+	text-align: center;
+	box-shadow:5px 10px 18px #51b8b5;
+	text-shadow:5px 10px 18px #51b8b5;
+	border-radius:20px;
+	color: black;
+	marging:5px;
+	padding:5px;
+	}
+a{
+	font-size,1em;
+	background-color: none;
+}
+a:link {
+	font-weight:bold;
+	font-size:1.2em;
+	text-decoration:none;
+	color:#551A8B;
+	}
+a:visited {
+	font-weight:bold ;
+	text-decoration:none ;
+	color:rgb(34, 46, 101);
+	}
+}
+a:hover{
+	text-decoration:underline ;
+  color:blue ;
+	background-color: #51b8b5;
+	}
+abbr {
+	text-decoration:none;
+	font-size:1em;
+	color:#000 ;
+	background-color: lightgrey;
+	border-radius:20px;
+	margin:2px;
+	padding:1px 3px;
+	}
+/* specific divs */
+.page-wrapper {
+	background-image:url(zen.png) ;
+	background-size:cover;
+	padding:0;
+	margin:0;
+	}
+/*------------ section intro banner and articles --------------*/
+.intro {
+	display:grid;
+	grid-template-columns: 2fr 200px  1fr ;
+	padding:10px;
+  border-radius:20px ;
+  border-style:outset ;
+	background-image:url(steen.jpg);
+	background-size:cover;
+  margin:10px;
+	width:auto;
+	}
+header{
+	grid-column:1/4;
+}
+.summary{
+		grid-column: 2/4;
+		justify-content: center;
+		align-content: center;
+		padding-right: 100px;
+	}
+	.preamble{
+		grid-column:3/4;
+		justify-content: center;
+		align-content: center;
+		padding-right: 100px;
+	}
+	/*--------------main menu and articles ----------------------*/
+.supporting {
+	display:flex;
+	flex-flow:row wrap;
+	align-items: center;
+	justify-content:center;
+	width:100%;
+	background-image:url(strand.jpg)  ;
+	background-size:cover ;
+	border-style:outset ;
+	border-radius: 20px;
+	padding:20px;
+	margin:10px;
+	}
+.explanation{
+	width:30%;
+	padding:20px;
+
+	}
+.participation{
+	width:30%;
+	padding:20px;
+
+}
+.benefits{
+	width:30%;
+	padding:20px;
+}
+.requirements{
+	align-items: center;
+	width:80%;
+	padding:30px;
+}
+footer {
+	align-item:center;
+	box-shadow:5px 10px 18px #51b8b5;
+	text-align:center ;
+	border-radius: 20px;
+  margin-top:20px;
+	}
+footer a:link {
+	padding:0 20px ;
+	}
+/*-----------aside role = complementary -------------------*/
+.sidebar {
+	display:flex;
+	flex-flow:row wrap;
+	align-items: center;
+	justify-content:center;
+	background-image :url(stenen.jpg) ;
+	background-size:cover;
+	border-style:outset ;
+	border-radius:20px ;
+	margin:10px 0 0 10px;
+	padding-top:10px;
+	width:100%;
+	color:#000;
+	}
+.sidebar h3{
+  border:none;
+}
+.sidebar ul {
+	text-align: center;
+	margin:10px ;
+	padding:10px;
+	}
+.sidebar ul li {
+  display:block;
+	}
+.sidebar li a:visited {
+	color: blue;
+	}
+.design-selection ul li a:nth-child(odd){
+  color:green;
+}
+.design-selection ul li a:nth-child(even){
+	color:orange;
+}
+.design-selection li:hover:{
+	transform:scale (1.5);
+
+/*------------- extra div's ------------------------------------------*/
+.extra1 {
+
+	}
