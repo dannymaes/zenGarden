@@ -9,7 +9,7 @@
 
 
 /* basic elements */
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 html {
 	margin: 0;
 	padding: 0;
@@ -30,7 +30,7 @@ p {
 	}
 
 h1{
-	font-family:fantasy,Georgia,serif;
+	font-family:'Dancing Script',cirsive,Georgia,serif;
 	font-size: 4em;
 	color:grey;
 	text-shadow: 5px 10px 18px #51b8b5;
@@ -38,7 +38,7 @@ h1{
 	text-align: center ;
 	}
 h2{
-	font-family:fantasy, Georgia, serif;
+	font-family:'Dancing Script',cirsive, serif;
 	font-size:48px;
 	color:grey;
 	text-shadow:5px 10px 18px #51b8b5;
@@ -47,7 +47,7 @@ h2{
 	white-space: ;
 	}
 h3 {
-	font-family: fantasy,Georgia,serif;
+	font-family: 'Dancing Script',cirsive,serif;
 	font-size: 1.5em;
 	text-align: center;
 	box-shadow:5px 10px 18px #51b8b5;
